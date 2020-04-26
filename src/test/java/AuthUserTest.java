@@ -76,7 +76,7 @@ public class AuthUserTest {
         Mockito.verify(userDao).getUser_byName();
         Assert.assertFalse(result);
     }
-    
+
     @Test
     public void testAuthUserNameSpace() {
         userInfo= new UserInfo("Admin ","password");
